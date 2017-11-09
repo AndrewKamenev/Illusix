@@ -1,0 +1,72 @@
+@media all and (max-width: 950px) {
+	.container {
+		padding: 0 20px;
+	}
+	.campaign .campaign-table {
+		padding: 0; 
+	}
+}
+@media all and (max-width: 845px) {
+	.title-wrapper {
+		padding: 0;
+	}
+	.title {
+		float: right;
+		margin-left: 0;
+	}
+	.campaign .date-group .date {
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 680px) {
+	.title-wrapper {
+		padding: 0;
+		.logo {
+			display: block;
+			text-align: center;
+			float: none;
+		}
+	}
+	.title {
+		float: none;
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+		.stat:last-child {
+			margin-right: 0;
+		}
+	}
+	.campaign .date-group {
+		background-image: none; 
+
+	.date {
+		width: 70%;
+	}
+	.date-clear {
+		width: 30%;
+	}
+}
+}
+@media all and (max-width: 480px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+	.title .date, .title .stat {
+		display: block;
+		margin: 0;
+	}
+	.campaign .date-group {
+		
+	.date {
+		width: 100%;
+	}
+	.date-clear {
+		display: none;
+	}
+}
+.item th, .item td {
+	font-size: 1.4em;
+}
+}
